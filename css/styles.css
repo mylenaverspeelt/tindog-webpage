@@ -1,4 +1,10 @@
-h1 {
+/* TITLE AND NAVBAR */
+
+#title {
+    background-color: #ff4c68;
+}
+
+#title h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
     line-height: 1.5;
@@ -6,17 +12,8 @@ h1 {
     color: #fff;
 }
 
-#title {
-    background-color: #ff4c68;
-}
-
 .container-fluid {
     padding: 3% 15%;
-    
-}
-
-body {
-    font-family: 'Montserrat', sans-serif;
 }
 
 .navbar-brand {
@@ -32,12 +29,90 @@ body {
 
 .nav-item {
     padding: 0 18px;
-    
-    
 }
 
-.nav-link{
+.nav-link {
     font-size: 1.2rem;
-    font-family: 'Montserrat' , sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
 
+.navbar-nav {
+    margin-left: 450px;
+}
+
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+.title-img {
+    width: 60%;
+    transform: rotate(25deg);
+    margin-left: 100px;
+}
+
+/* FEATURES */
+
+#features {
+    max-width: 100%;
+    padding: 7% 15%;
+}
+
+.icon-features {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon-features:hover {
+    color: #ff4c68;
+}
+
+#features h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#features p {
+    color: #8f8f8f;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.features-box {
+    text-align: center;
+    padding: 4%;
+}
+
+/* TESTIMONIAL */
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+#testimonials h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-weight: 900;
+}
+
+.testimonials-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* PRESS */
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-img {
+    width: 15%;
+    margin: 20px 20px 50px;
 }
