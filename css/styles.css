@@ -2,6 +2,7 @@
 
 #title {
     background-color: #ff4c68;
+    p
 }
 
 #title h1 {
@@ -13,7 +14,7 @@
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 .navbar-brand {
@@ -45,16 +46,19 @@
 }
 
 .title-img {
-    width: 60%;
+    width: 20%;
     transform: rotate(25deg);
-    margin-left: 100px;
+    position: absolute;
+    right: 20%;
 }
 
 /* FEATURES */
 
 #features {
-    max-width: 100%;
     padding: 7% 15%;
+    background-color: #ffff;
+    position: relative;
+    z-index: 1;
 }
 
 .icon-features {
@@ -85,7 +89,6 @@
 /* TESTIMONIAL */
 
 #testimonials {
- 
     text-align: center;
     background-color: #ef8172;
     color: #fff;
@@ -104,7 +107,7 @@
     margin: 20px;
 }
 
-.carousel-item{
+.carousel-item {
     padding: 7% 15%;
 }
 
@@ -123,11 +126,25 @@
 
 /* PRICING */
 
-#pricing{
+#pricing {
     padding: 100px;
 }
 
-.pricing-columns{
+.pricing-columns {
     padding: 3% 2%;
     text-align: center;
+}
+
+#pricing h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+#pricing p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#pricing h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
