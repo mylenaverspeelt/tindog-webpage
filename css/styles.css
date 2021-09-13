@@ -85,7 +85,7 @@
 /* TESTIMONIAL */
 
 #testimonials {
-    padding: 7% 15%;
+ 
     text-align: center;
     background-color: #ef8172;
     color: #fff;
@@ -98,10 +98,14 @@
     font-weight: 900;
 }
 
-.testimonials-img {
+.testimonial-image {
     width: 10%;
     border-radius: 100%;
     margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
 }
 
 /* PRESS */
@@ -115,4 +119,15 @@
 .press-img {
     width: 15%;
     margin: 20px 20px 50px;
+}
+
+/* PRICING */
+
+#pricing{
+    padding: 100px;
+}
+
+.pricing-columns{
+    padding: 3% 2%;
+    text-align: center;
 }
