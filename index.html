@@ -1,3 +1,5 @@
+<!-- AJEITAR O JS DO NAVBAR -->
+
 <!DOCTYPE html>
 <html>
 
@@ -6,10 +8,9 @@
   <title>TinDog</title>
 
   <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&display=swap');
+    </style>
 
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/6a8f4de875.js" crossorigin="anonymous"></script>
@@ -43,13 +44,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="">Contact</a>
+              <a class="nav-link" href="#footer">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Pricing</a>
+              <a class="nav-link" href="#pricing">Pricing</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Download</a>
+              <a class="nav-link" href="#cta">Download</a>
             </li>
           </ul>
         </div>
@@ -204,9 +205,9 @@
   <section id="cta">
 
     <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
-
+    <button type="button" class="btn btn-dark btn-lg download-btn"><i class="fab fa-apple"></i> Download</button>
+    <button type="button" class="btn btn-light btn-lg download-btn"><i class="fab fa-google-play"></i> Download</button>
+ 
   </section>
 
 
@@ -214,9 +215,18 @@
 
   <footer id="footer">
 
-    <p>© Copyright 2018 TinDog</p>
+    <i class="footer-icons fab fa-twitter fa-1x"></i>
+    <i class="footer-icons fab fa-facebook-f fa-1x"></i>
+    <i class="footer-icons fab fa-instagram fa-1x"></i>
+    <i class="footer-icons fas fa-envelope fa-1x"></i>
+    
+
+    <p>© Copyright 2021 TinDog</p>
 
   </footer>
+
+
+
   <!-- Popper and Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
     integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
