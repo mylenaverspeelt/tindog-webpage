@@ -60,10 +60,23 @@ body {
         transform: rotate(0);
         width: 80%;
     }
+
     #title h1 {
         text-align: center;
     }
+
+    .download-btn {
+        margin-left: 80px;
+    }
+
+    .title-img {
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+
 }
+
+
 
 /* FEATURES */
 
@@ -119,17 +132,6 @@ body {
     padding: 7% 15%;
 }
 
-/* PRESS */
-
-#press {
-    background-color: #ef8172;
-   padding-bottom: 3%;
-}
-
-.press-img {
-    width: 15%;
-    margin: 20px 20px 50px;
-}
 
 /* PRICING */
 
@@ -156,7 +158,7 @@ body {
     background-color: #ff4c68;
     color: white;
     padding: 7% 15%;
-  
+
 }
 
 #cta h3 {
@@ -178,4 +180,11 @@ body {
 
 .footer-icons {
     margin: 20px 10px;
+
+
+}
+
+.footer-icons:hover {
+    color: #ff4c68;
+    cursor: pointer;
 }

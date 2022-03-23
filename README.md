@@ -1,5 +1,5 @@
-
-<h1>  ✨ Tindog </h1>
-<p>Webpage criada para prática dos modulos de Bootstrap do curso The Complete 2021 Web Development Bootcamp - The App Brewery - Angela Yu</p> 
-<p>Desenvolvida sem fins lucrativos, apenas com intuito educacional</p>
-<p>Desenvolvido por: Mylena Verspeelt 🌻</p>
+#✨ Tindog
+<p>Webpage simples insipirada no Tinder, só que para cachorros!</p> 
+<p>Construida com Bootstrap, CSS e HTML.</p>
+<p>Para acessar, basta clicar no link:  </p>
+<p>Autora: Mylena Verspeelt 🌻</p>
