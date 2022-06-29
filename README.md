@@ -10,7 +10,7 @@ To check the page just click on the link: https://mylenaverspeelt.github.io/tind
     <div align="left">
     <img align="left" height="30" src="https://cdn.worldvectorlogo.com/logos/html-1.svg">
     <img align="left" height="30" src="https://cdn.worldvectorlogo.com/logos/css-3.svg">
-    <img align="center" height="30" src="https://worldvectorlogo.com/pt/logo/bootstrap-4.svg">
+    <img align="center" height="30" src="https://cdn.worldvectorlogo.com/logos/bootstrap-4.svg">
 <br />
 <div>
    <br />
